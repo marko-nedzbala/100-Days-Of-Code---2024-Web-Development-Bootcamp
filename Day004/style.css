@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+p {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#todays-challene {
+    color: rgba(170, 96, 83);
+    font-weight: bold;
+    font-size: 52px;
+}
