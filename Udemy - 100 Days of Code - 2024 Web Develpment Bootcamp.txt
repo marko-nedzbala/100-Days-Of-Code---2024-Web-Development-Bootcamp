@@ -75,6 +75,25 @@ height: 200px;
 width: 200px;
 border-radius: 100px;   //basically a circle
 
+Used for responsive pages
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+Section03
+Diving Deeper Into HTML & CSS [Days 6 - 8]
+
+127.0.0.1 is localhost
+
+HTML has a parent-child relationship
+
+CSS rules
+Inheritance: selected container rules apply to descendants
+Cascading Style Sheets: multiple rules can be applied to the same element
+Specificity: more specific selector's rule wins over less specific selector
+
+CSS Box Model
+
 
 
 
