@@ -93,6 +93,33 @@ Cascading Style Sheets: multiple rules can be applied to the same element
 Specificity: more specific selector's rule wins over less specific selector
 
 CSS Box Model
+In order for the model:
+Margin -> Border -> Padding -> Content
+
+Padding Order
+top, right, bottom, left
+clockwise
+
+Centering our list
+ol {
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+Creating layouts for your webpage
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
+Selectors & Combinators
+combinator: a combination of different selectors
+
+Block versus Inline Elements
+Block (level) element: takes the entire space of the page, horizontally takes the entire space, creates a new line
+Inline element: takes a portion of the space of the page, horizontally takes only a little bit of space on the page, does not take the entire page
+
+List of Inline elements
+https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content
 
 
 
