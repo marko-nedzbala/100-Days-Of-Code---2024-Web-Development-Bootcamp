@@ -1,0 +1,228 @@
+https://github.com/academind/100-days-of-web-development
+
+
+Section01
+Introduction [Day 1]
+We send a request via HyperText Transfer Protocol Secure (HTTPS)
+
+Request: you, the client, requests something from the server Client, Front-end
+Response: the server, response, to your request              Server, Back-end
+
+Programming Languages
+HTML: the content structure of the displayed page
+CSS: the styling of the displayed page and its content
+JavaScript: interactivity that might might be needed on the displayed page
+
+Uniform Resource Locator (URL)
+https://www.google.com
+protocol://root-domain.domain/path
+
+DNS Server: stores domain and the translation tables
+Your browser first looks up the DNS lookup request, and the DNS Response with an IP address
+To host a website, appropriate "Entry Points" (Ports) must be opened in the network and your computer must be configured as a web server
+
+https://100daysofwebdev.com/
+
+
+
+Section02
+Building a First Website: HTML & CSS Basics [Days 1 - 5]
+
+<openingTag attributeName="attributeValue">element content</closingTag>
+
+CSS Color mode
+Hexadecimal
+RGB
+HSL
+
+CSS Rules
+how we select values and add styling to HTML elements
+
+selector {
+    CSS Property: CSS value
+}
+p {
+    color: #534b4b
+}
+
+Valid HTML Document
+<!DOCTYPE html>
+<html>
+    <head>                              |---
+        <title>My Page</title>          Page Meta-Data
+    </head>                             ---|
+    <body>                              |---Page
+        <h1>Header</h1>                 Page Conent
+    </body>                             ---|
+</html>
+
+Using fonts from Google fonts
+https://fonts.google.com/
+
+1.) Type the name of the font family you want
+2.) Select the size(s) you want of the font
+3.) Get the link of the font(s) you want
+4.) Place the link in your <head></head> tag as the first link
+5.) In you CSS file use the font-family
+p {
+    font-family: 'Fira Sans'
+}
+
+for performance reasons it is probably best to download the files directly to your server
+
+border-radius is based on the size of your image
+height: 200px;
+width: 200px;
+border-radius: 100px;   //basically a circle
+
+Used for responsive pages
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+Section03
+Diving Deeper Into HTML & CSS [Days 6 - 8]
+
+127.0.0.1 is localhost
+
+HTML has a parent-child relationship
+
+CSS rules
+Inheritance: selected container rules apply to descendants
+Cascading Style Sheets: multiple rules can be applied to the same element
+Specificity: more specific selector's rule wins over less specific selector
+
+CSS Box Model
+In order for the model:
+Margin -> Border -> Padding -> Content
+
+Padding Order
+top, right, bottom, left
+clockwise
+
+Centering our list
+ol {
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+Creating layouts for your webpage
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
+Selectors & Combinators
+combinator: a combination of different selectors
+
+Block versus Inline Elements
+Block (level) element: takes the entire space of the page, horizontally takes the entire space, creates a new line
+Inline element: takes a portion of the space of the page, horizontally takes only a little bit of space on the page, does not take the entire page
+
+List of Inline elements
+https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content
+
+Box-shadow
+box-shadow: x-axis y-axis radius color;
+
+can center things with
+margin: auto;
+
+
+
+
+
+
+
+git remote add origin https://github.com/marko-nedzbala/100-Days-Of-Code---2024-Web-Development-Bootcamp.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
