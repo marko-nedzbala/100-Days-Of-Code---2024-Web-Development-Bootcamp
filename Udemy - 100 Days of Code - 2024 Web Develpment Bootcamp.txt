@@ -121,6 +121,13 @@ Inline element: takes a portion of the space of the page, horizontally takes onl
 List of Inline elements
 https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content
 
+Box-shadow
+box-shadow: x-axis y-axis radius color;
+
+can center things with
+margin: auto;
+
+
 
 
 
