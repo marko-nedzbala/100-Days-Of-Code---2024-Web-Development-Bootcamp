@@ -3,6 +3,13 @@ body {
     margin: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+
 #page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
@@ -19,4 +26,11 @@ ul {
     padding: 0;
 }
 
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
 
