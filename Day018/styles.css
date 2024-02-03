@@ -58,6 +58,12 @@
     margin: 24px 0;
 }
 
+#highlights {
+    padding: 24px;
+    /* background-color: rgb(227, 255, 253); */
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
 #destinations {
     display: flex;
     width: 100%;
