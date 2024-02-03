@@ -1,9 +1,25 @@
 body {
     background: linear-gradient(30deg, rgb(77, 77, 77), rgba(58, 58, 58));
+    color: rgb(68, 68, 68);
 }
 
 header {
     position: static;
+}
+
+main ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 500px;
 }
 
 main li img {
@@ -11,7 +27,25 @@ main li img {
     height: 280px;
 }
 
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.actions {
+    text-align: right;
+}
 
+.actions a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(22, 211, 228);
+}
 
+.actions a:hover {
+    background-color: rgb(235, 253, 255);
+    border-radius: 5px;
+}
 
