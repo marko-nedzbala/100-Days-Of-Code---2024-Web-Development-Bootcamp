@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="/" method="POST">
-        <input type="text" name="my-form">
+    <form action="/" method="get">
+        <!-- For reads the id of input for assistance technology -->
+        <!-- Also clicking on the label focuses on the input -->
+        <label for="user-name">Enter Name</label>
+        <input type="text" name="my-form" id="user-name">
+        <label for="user-email">Enter Email</label>
+        <input type="email" name="my-email" id="user-email">
+
+        <label for="user-age"></label>
+        <!-- <input type="number" name="my-age" id="user-age"> -->
+        <input type="date" name="" id="">
+
+        <hr>
+
+        <h2>How should we verify your account?</h2>
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-text-message" value="text-message">
+            <label for="verify-phone">Via text message</label>
+        </div>
+        <div class="form-control-inline">   
+            <input type="radio" name="verify" id="verify-phone" value="phone">
+            <label for="">Via phone call</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-email" value="email">
+            <label for="verify-email">Via an email</label>
+        </div>
+
         <button>Submit</button>
     </form>
 </body>
